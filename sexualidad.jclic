@@ -1,0 +1,960 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JClicProject name="sexualidad" version="0.1.3">
+ <settings>
+  <title>ACTIVIDADES CUADERNILLO BIOLOGÍA</title>
+  <revision description="created" date="10/5/26" />
+  <author name="ANDREA CASTILLO" />
+  <author name="DANIELA ESTRADA" />
+  <author name="YOSELIN VELASCO" />
+  <organization name="UNISON CABORCA" />
+  <description>
+   <p>FASE 6 SABERES Y PENSAMIENTO CRITICO (BIOLOGÍA)</p>
+  </description>
+  <descriptors area-codes="exp" level-codes="SEC" />
+  <meta_langs>es</meta_langs>
+  <descriptions>
+   <description language="es">
+    <p>FASE 6 SABERES Y PENSAMIENTO CRITICO (BIOLOGÍA)</p>
+   </description>
+  </descriptions>
+  <license type="by-nc-sa" url="https://creativecommons.org/licenses/by-nc-sa/4.0" />
+ </settings>
+ <sequence>
+  <item id="start" name="PORTADA" />
+  <item name="Sexualidad, cambios y prevención" />
+  <item name="ALIMENTACIÓN" />
+  <item name="Cadena trofica" />
+  <item name="METODOS ANTICONCEPTIVOS" />
+  <item name="Sopa de letras" />
+  <item name="cadena" />
+  <item name="cadena 2" />
+  <item name="cadena 3" />
+  <item name="cadena 4" />
+  <item name="cadena 5" />
+ </sequence>
+ <activities>
+  <activity class="@panels.InformationScreen" name="PORTADA" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Rockwell Extra Bold" size="16" />
+      <color foreground="0x6600CC" background="0xCCCCFF" />
+     </style>
+     <p>Bienvenidos a este repaso sobre la sexualidad y las cadenas tróficas,disfruta los juegos!!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0xCCCCFF">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xCCCCFF" border="true" />
+   </settings>
+   <cells rows="1" cols="1" cellWidth="540.0" cellHeight="304.0" border="true">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="1" />
+    <cell image="Mi cuerpo y la cadena de la vida-resized.jpg">
+     <style>
+      <color background="0xCCCCFF" />
+     </style>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@puzzles.ExchangePuzzle" name="ALIMENTACIÓN" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Rockwell Extra Bold" size="18" />
+      <color foreground="0x00CC66" background="0xFFFFCC" />
+     </style>
+     <p>Observa la infografía e identifica las causas y formas de prevenir la obesidad y la diabetes.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Rockwell Extra Bold" size="18" />
+      <color foreground="0x00CC66" background="0xFFFFCC" />
+     </style>
+     <p>Bien hecho ¡Lo lograste!</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <container bgColor="0xCCFFFF">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFCC" border="true" />
+   </settings>
+   <cells rows="5" cols="5" border="true" image="Tú eliges_ hábitos saludables hoy-resized.jpg">
+    <style />
+    <shaper class="@ClassicJigSaw" cols="5" rows="5" />
+    <cell>
+     <style>
+      <font family="Rockwell Extra Bold" size="14" bold="true" />
+      <color foreground="0xCC00CC" background="0xFFFFFF" inactive="0xFFCCFF" />
+     </style>
+    </cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+   </cells>
+   <scramble times="31" />
+  </activity>
+  <activity class="@associations.SimpleAssociation" name="Cadena trofica" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Rockwell Extra Bold" size="17" />
+      <color foreground="0x663300" background="0x009933" />
+     </style>
+     <p>RELACIONA CADA IMAGEN CON LA QUE CORRESPONDE</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Rockwell Extra Bold" size="17" />
+      <color foreground="0x663300" background="0x009933" />
+     </style>
+     <p>¡LO LOGRASTE!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x009933">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x663300" border="true" />
+   </settings>
+   <cells rows="4" cols="1" cellWidth="280.0" cellHeight="280.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="4" />
+    <cell image="01_Desaparicion_de_depredadores.jpg">
+     <style>
+      <font family="Rockwell Extra Bold" size="17" />
+      <color foreground="0x663300" background="0xFFFFFF" inactive="0x663300" />
+     </style>
+    </cell>
+    <cell image="02_Disminucion_de_herbivoros.jpg">
+     <style>
+      <font family="Rockwell Extra Bold" size="17" />
+      <color foreground="0x663300" background="0xFFFFFF" inactive="0x663300" />
+     </style>
+    </cell>
+    <cell image="03_Contaminacion_del_agua.jpg">
+     <style>
+      <font family="Rockwell Extra Bold" size="17" />
+      <color foreground="0x663300" background="0xFFFFFF" inactive="0x663300" />
+     </style>
+    </cell>
+    <cell image="04_Sequia.jpg">
+     <style>
+      <font family="Rockwell Extra Bold" size="17" />
+      <color foreground="0x663300" background="0xFFFFFF" inactive="0x663300" />
+     </style>
+    </cell>
+   </cells>
+   <cells rows="4" cols="1" cellWidth="280.0" cellHeight="280.0" border="true" id="secondary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="4" />
+    <cell image="05_Aumenta_la_poblacion_de_presas.jpg">
+     <style>
+      <font family="Rockwell Extra Bold" size="17" />
+      <color foreground="0x663300" background="0xFFFFFF" inactive="0x663300" />
+     </style>
+    </cell>
+    <cell image="06_Aumenta_la_cantidad_de_vegetacion.jpg">
+     <style>
+      <font family="Rockwell Extra Bold" size="17" />
+      <color foreground="0x663300" background="0xFFFFFF" inactive="0x663300" />
+     </style>
+    </cell>
+    <cell image="07_Los_animales_acuaticos_pueden_disminuir.jpg">
+     <style>
+      <font family="Rockwell Extra Bold" size="17" />
+      <color foreground="0x663300" background="0xFFFFFF" inactive="0x663300" />
+     </style>
+    </cell>
+    <cell image="08_Los_herbivoros_tienen_menos_alimento_y_disminuyen.jpg">
+     <style>
+      <font family="Rockwell Extra Bold" size="17" />
+      <color foreground="0x663300" background="0xFFFFFF" inactive="0x663300" />
+     </style>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@textGrid.CrossWord" name="METODOS ANTICONCEPTIVOS" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Rockwell Extra Bold" size="17" />
+      <color background="0xFFCCCC" />
+     </style>
+     <p>RESUELVE EL SIGUIENTE CRUCIGRAMA</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Rockwell Extra Bold" size="17" />
+      <color background="0xFFCCCC" border="0xFFCCCC" />
+     </style>
+     <p>¡ BIEN HECHO! PASA A LA SIGUIENTE ACTIVIDAD.</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xFF9999">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9999" border="true" />
+   </settings>
+   <textGrid rows="16" columns="23" cellWidth="19.0" cellHeight="20.0" border="true">
+    <style>
+     <color background="0xFFFFFF" />
+    </style>
+    <text>
+     <row>****************</row>
+     <row>****************</row>
+     <row>***********DIU**</row>
+     <row>**P*********N***</row>
+     <row>**A*********Y***</row>
+     <row>**S*********E***</row>
+     <row>*ITS******S*C***</row>
+     <row>**I*******E*C***</row>
+     <row>**L*******R*I***</row>
+     <row>**L**E****V*O***</row>
+     <row>PLANIFICACION***</row>
+     <row>*****E**D*C*****</row>
+     <row>*****C**O*I*****</row>
+     <row>*****T**L*O*****</row>
+     <row>*****I**E*S*****</row>
+     <row>*****V**S*******</row>
+     <row>*****I**C*******</row>
+     <row>*****D**E**V****</row>
+     <row>*****A**N**I****</row>
+     <row>*****D**CONDON**</row>
+     <row>********I**A****</row>
+     <row>********A*******</row>
+     <row>****************</row>
+    </text>
+   </textGrid>
+   <cells rows="1" cols="3" cellWidth="200.0" cellHeight="60.0" border="true" id="acrossClues">
+    <style />
+    <shaper class="@Rectangular" cols="3" rows="1" />
+    <cell id="21" item="1" />
+    <cell id="21" item="0" />
+    <cell id="20" item="2" />
+    <cell id="20" item="1" />
+    <cell id="20" item="0" />
+    <cell id="19" item="2" />
+    <cell id="19" item="1">
+     <style>
+      <font family="Rockwell Extra Bold" size="14" bold="true" />
+      <color background="0xFFCCCC" border="0xFFCCCC" />
+     </style>
+     <p>Método que ayuda a prevenir embarazo e its</p>
+    </cell>
+    <cell id="19" item="0" />
+    <cell id="18" item="3" />
+    <cell id="18" item="2" />
+    <cell id="18" item="1" />
+    <cell id="18" item="0" />
+    <cell id="17" item="3" />
+    <cell id="17" item="2">
+     <style>
+      <font family="Rockwell Extra Bold" size="14" bold="true" />
+      <color background="0xFFCCCC" border="0xFFCCCC" />
+     </style>
+    </cell>
+    <cell id="17" item="1" />
+    <cell id="17" item="0" />
+    <cell id="10" item="1" />
+    <cell id="10" item="0">
+     <style>
+      <font family="Rockwell Extra Bold" size="14" bold="true" />
+      <color background="0xFFCCCC" border="0xFFCCCC" />
+     </style>
+     <p>Decidir cuando y cuántos hijos tener</p>
+    </cell>
+    <cell id="11" item="3" />
+    <cell id="11" item="1" />
+    <cell id="11" item="0" />
+    <cell id="11" item="2" />
+    <cell id="12" item="3" />
+    <cell id="12" item="1" />
+    <cell id="12" item="0" />
+    <cell id="12" item="2" />
+    <cell id="13" item="3" />
+    <cell id="13" item="1" />
+    <cell id="13" item="0" />
+    <cell id="13" item="2" />
+    <cell id="14" item="3" />
+    <cell id="14" item="1">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <color background="0xFFCCCC" inactive="0xFFCCCC" />
+     </style>
+    </cell>
+    <cell id="14" item="0" />
+    <cell id="14" item="2" />
+    <cell id="15" item="2" />
+    <cell id="15" item="1" />
+    <cell id="15" item="0" />
+    <cell id="16" item="2" />
+    <cell id="16" item="1" />
+    <cell id="16" item="0" />
+    <cell id="9" item="4" />
+    <cell id="9" item="1">
+     <style>
+      <font family="Rockwell Extra Bold" size="14" bold="true" />
+      <color background="0xFFCCCC" border="0xFFCCCC" />
+     </style>
+    </cell>
+    <cell id="9" item="0" />
+    <cell id="9" item="3">
+     <style>
+      <font family="Rockwell Extra Bold" size="14" bold="true" />
+      <color background="0xFFCCCC" border="0xFFCCCC" />
+     </style>
+    </cell>
+    <cell id="9" item="2" />
+    <cell id="8" item="3" />
+    <cell id="8" item="0" />
+    <cell id="8" item="2" />
+    <cell id="8" item="1" />
+    <cell id="7" item="3" />
+    <cell id="7" item="0" />
+    <cell id="7" item="2" />
+    <cell id="7" item="1" />
+    <cell id="6" item="3" />
+    <cell id="6" item="0">
+     <style>
+      <font family="Rockwell Extra Bold" size="14" bold="true" />
+      <color background="0xFFCCCC" border="0xFFCCCC" />
+     </style>
+     <p>Infección de transmisión sexual</p>
+    </cell>
+    <cell id="6" item="2">
+     <style>
+      <font family="Rockwell Extra Bold" size="14" bold="true" />
+      <color background="0xFFCCCC" border="0xFFCCCC" />
+     </style>
+    </cell>
+    <cell id="6" item="1">
+     <style>
+      <font family="Rockwell Extra Bold" size="14" bold="true" />
+      <color background="0xFFCCCC" border="0xFFCCCC" />
+     </style>
+     <p>Atención amigable que orienta sobre la salud sexual</p>
+    </cell>
+    <cell id="5" item="0" />
+    <cell id="5" item="1" />
+    <cell id="5" item="1" />
+    <cell id="4" item="0" />
+    <cell id="4" item="1">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <color background="0xFFCCCC" inactive="0xFFCCCC" />
+     </style>
+    </cell>
+    <cell id="4" item="1" />
+    <cell id="3" item="0">
+     <style>
+      <font family="Rockwell Extra Bold" size="14" bold="true" />
+      <color background="0xFFCCCC" border="0xFFCCCC" />
+     </style>
+     <p> </p>
+    </cell>
+    <cell id="3" item="1" />
+    <cell id="3" item="1" />
+    <cell id="2" item="1" />
+    <cell id="2" item="0">
+     <style>
+      <font family="Rockwell Extra Bold" size="14" bold="true" />
+      <color background="0xFFCCCC" border="0xFFCCCC" />
+     </style>
+     <p>Dispositivo que se coloca dentro del útero</p>
+    </cell>
+    <cell id="1" item="0" />
+    <cell id="0" item="0" />
+    <cell id="0" />
+    <cell id="0" />
+    <cell id="1" />
+    <cell id="2" />
+   </cells>
+   <cells rows="1" cols="3" cellWidth="200.0" cellHeight="60.0" border="true" id="downClues">
+    <style />
+    <cell id="10" item="2" />
+    <cell id="10" item="1">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <color background="0xFFCCCC" />
+     </style>
+    </cell>
+    <cell id="9" item="2" />
+    <cell id="9" item="1">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <color background="0xFFCCCC" inactive="0xFFCCCC" />
+     </style>
+    </cell>
+    <cell id="11" item="3" />
+    <cell id="11" item="2">
+     <style>
+      <font family="Rockwell Extra Bold" size="14" bold="true" />
+      <color background="0xFFCCCC" border="0xFFCCCC" />
+     </style>
+     <p>Proyecto personal con metas en el futuro</p>
+    </cell>
+    <cell id="11" item="0">
+     <style>
+      <font family="Rockwell Extra Bold" size="14" bold="true" />
+      <color background="0xFFCCCC" border="0xFFCCCC" />
+     </style>
+    </cell>
+    <cell id="16" item="0" />
+    <cell id="2" item="1" />
+    <cell id="2" item="0">
+     <style>
+      <font family="Rockwell Extra Bold" size="14" bold="true" />
+      <color background="0xFFCCCC" border="0xFFCCCC" />
+     </style>
+     <p>Anticonceptivo hormonal que se toma diariamente</p>
+    </cell>
+    <cell id="15" item="0" />
+    <cell id="14" item="0" />
+    <cell id="13" item="2" />
+    <cell id="13" item="1">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <color background="0xFFCCCC" inactive="0xFFCCCC" />
+     </style>
+    </cell>
+    <cell id="13" item="0" />
+    <cell id="12" item="2" />
+    <cell id="12" item="1">
+     <style>
+      <font family="Rockwell Extra Bold" size="14" bold="true" />
+      <color background="0xFFCCCC" border="0xFFCCCC" />
+     </style>
+     <p>Anticonceptivo hormonal que se toma diariamente</p>
+    </cell>
+    <cell id="12" item="0">
+     <style>
+      <font family="Rockwell Extra Bold" size="14" bold="true" />
+      <color background="0xFFCCCC" border="0xFFCCCC" />
+     </style>
+     <p>Método anticonceptivo hormonal aplicado con una aguja</p>
+    </cell>
+    <cell id="11" item="1">
+     <style>
+      <font family="Rockwell Extra Bold" size="14" bold="true" />
+      <color background="0xFFCCCC" border="0xFFCCCC" />
+     </style>
+    </cell>
+    <cell id="11" item="1" />
+    <cell id="10" item="0">
+     <style>
+      <font family="Rockwell Extra Bold" size="14" bold="true" />
+      <color background="0xFFCCCC" border="0xFFCCCC" />
+     </style>
+    </cell>
+    <cell id="10" item="0" />
+    <cell id="9" item="0">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <color background="0xFFCCCC" inactive="0xFFCCCC" />
+     </style>
+    </cell>
+    <cell id="9" item="0" />
+    <cell id="8" item="1" />
+    <cell id="8" item="0">
+     <style>
+      <font family="Rockwell Extra Bold" size="14" bold="true" />
+      <color background="0xFFCCCC" border="0xFFCCCC" />
+     </style>
+     <p>Etapas de cambios fisícos y emocionales</p>
+    </cell>
+    <cell id="7" item="1" />
+    <cell id="7" item="0">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <color background="0xFFCCCC" inactive="0xFFCCCC" />
+     </style>
+    </cell>
+    <cell id="6" item="1" />
+    <cell id="6" item="0" />
+    <cell id="5" item="1" />
+    <cell id="5" item="0">
+     <style>
+      <font family="Rockwell Extra Bold" size="14" bold="true" />
+      <color background="0xFFCCCC" border="0xFFCCCC" />
+     </style>
+     <p>Capacidad de prevenir un embarazo</p>
+    </cell>
+    <cell id="4" item="1" />
+    <cell id="4" item="0" />
+    <cell id="3" item="2" />
+    <cell id="3" item="0" />
+    <cell id="3" item="1" />
+    <cell id="1" item="2" />
+    <cell id="1" item="0">
+     <style>
+      <font family="Rockwell Extra Bold" size="14" bold="true" />
+      <color background="0xFFCCCC" border="0xFFCCCC" />
+     </style>
+    </cell>
+    <cell id="1" item="1" />
+    <cell id="0" item="1" />
+    <cell id="0" item="0">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <color background="0xFFCCCC" />
+     </style>
+    </cell>
+    <cell id="0" />
+    <cell id="0" />
+    <cell id="1" />
+    <cell id="2" />
+   </cells>
+   <layout position="AB" />
+  </activity>
+  <activity class="@associations.SimpleAssociation" name="Sexualidad, cambios y prevención" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="2.7">
+      <font family="Rockwell Extra Bold" size="18" bold="true" />
+      <color foreground="0x6600CC" background="0xCCCCFF" shadow="0x9900FF" alternative="0xCCCCFF" />
+     </style>
+     <p>Relaciona el objeto con su nombre</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Rockwell Extra Bold" size="20" bold="true" />
+      <color foreground="0x6600CC" background="0xCCCCFF" border="0x6600CC" />
+     </style>
+     <p>¡Lo lograste!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xFFCCFF">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFCCFF" border="true" />
+   </settings>
+   <cells rows="4" cols="1" cellWidth="200.0" cellHeight="200.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="4" />
+    <cell image="comunicacion-resized.jpg">
+     <style>
+      <font family="Rockwell Extra Bold" size="20" bold="true" />
+      <color foreground="0x6600CC" background="0xFFFFFF" inactive="0xFFCCFF" />
+     </style>
+    </cell>
+    <cell image="METODOS ANTI-resized.jpg">
+     <style>
+      <font family="Rockwell Extra Bold" size="20" />
+      <color foreground="0x6600CC" background="0xFFFFFF" inactive="0xFFCCFF" />
+     </style>
+    </cell>
+    <cell image="cambios fisicos-resized.jpg">
+     <style>
+      <font family="Rockwell Extra Bold" size="20" />
+      <color foreground="0x6600CC" background="0xFFFFFF" inactive="0xFFCCFF" />
+     </style>
+    </cell>
+    <cell image="AFECTO.jpg">
+     <style>
+      <font family="Rockwell Extra Bold" size="20" bold="true" />
+      <color foreground="0x6600CC" background="0xFFFFFF" inactive="0xFFCCFF" />
+     </style>
+    </cell>
+   </cells>
+   <cells rows="4" cols="1" cellWidth="260.0" cellHeight="200.0" border="true" id="secondary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="4" />
+    <cell>
+     <style>
+      <font family="Rockwell Extra Bold" size="14" />
+      <color foreground="0xCC00CC" background="0xFFFFFF" inactive="0xFFCCFF" />
+     </style>
+     <p>Comunicación afectiva  </p>
+    </cell>
+    <cell>
+     <style>
+      <font family="Rockwell Extra Bold" size="14" bold="true" />
+      <color foreground="0xCC00CC" background="0xFFFFFF" inactive="0xFFCCFF" />
+     </style>
+     <p>Métodos anticonceptivos</p>
+    </cell>
+    <cell>
+     <style>
+      <font family="Rockwell Extra Bold" size="14" bold="true" />
+      <color foreground="0xCC00CC" background="0xFFFFFF" inactive="0xFFCCFF" />
+     </style>
+     <p>Cambios fisícos</p>
+    </cell>
+    <cell>
+     <style>
+      <font family="Rockwell Extra Bold" size="14" bold="true" />
+      <color foreground="0xCC00CC" background="0xFFFFFF" inactive="0xFFCCFF" />
+     </style>
+     <p>Afecto</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@textGrid.WordSearch" name="Sopa de letras" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Rockwell Extra Bold" size="17" />
+      <color background="0x00CC33" />
+     </style>
+     <p>completa la siguiente sopa de letras</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Rockwell Extra Bold" size="17" />
+      <color background="0x00CC33" />
+     </style>
+     <p>¡bien hecho!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xCCFFCC">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xCCFFCC" border="true" />
+   </settings>
+   <textGrid rows="15" columns="15" cellWidth="20.0" cellHeight="20.0" border="true">
+    <style>
+     <color background="0x00CC33" inactive="0x336600" />
+    </style>
+    <text>
+     <row>PLANTA******C**</row>
+     <row>D*O*****A***AP*</row>
+     <row>E**M***SL***R**</row>
+     <row>S***B*E*G**ON**</row>
+     <row>C****R**A*D*I**</row>
+     <row>O***P*I**U**V**</row>
+     <row>M******ZC***O*O</row>
+     <row>P******T****R*R</row>
+     <row>O*****O****OO*E</row>
+     <row>N****R****B***Ñ</row>
+     <row>E********O****O</row>
+     <row>D*E*****L*****R</row>
+     <row>ODEPREDADOR***R</row>
+     <row>R*********S***A</row>
+     <row>**************C</row>
+    </text>
+   </textGrid>
+   <clues>
+    <clue id="0">PLANTA</clue>
+    <clue id="1">LOMBRIZ</clue>
+    <clue id="2">CARROÑERO</clue>
+    <clue id="3">DEPREDADOR</clue>
+    <clue id="4">PRESA</clue>
+    <clue id="5">DESCOMPONEDOR</clue>
+    <clue id="6">SOL</clue>
+    <clue id="7">PRODUCTOR</clue>
+    <clue id="8">CARNIVORO</clue>
+    <clue id="9">ALGA</clue>
+    <clue id="10">LOBO</clue>
+   </clues>
+  </activity>
+  <activity class="@text.Complete" name="cadena" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Rockwell Extra Bold" size="17" />
+      <color background="0x3333FF" />
+     </style>
+     <p>ESCRIBE LA PALABRA QUE FALTA EN LA DEFINICIÓN</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Rockwell Extra Bold" size="17" />
+      <color background="0x3333FF" />
+     </style>
+     <p>¡BIEN HECHO!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x0066FF">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x0099FF" border="true">
+     <size width="600" height="500" />
+    </window>
+   </settings>
+   <checkButton>Evaluación</checkButton>
+   <document>
+    <style name="targetError" base="target" foreground="0xFF0000" />
+    <style name="target" base="default" foreground="0x0000FF" target="true" />
+    <style name="default" family="Arial" background="0xFFFFFF" size="13" bold="false" italic="false" tabWidth="12" />
+    <section>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" Alignment="1">
+      <cell width="200" height="200" image="Cadena alimentaria_ flujo de energía-resized.jpg">
+       <style borderStroke="0.7" markerStroke="5.0">
+        <color background="0xFFFFFF" inactive="0xFFCCCC" />
+       </style>
+      </cell>
+     </p>
+     <p family="Arial" background="0xFFFFFF" Alignment="1">
+      <text family="Rockwell Extra Bold" background="0xFFFFFF" size="35" foreground="0x003366">Es la secuencia en la que los seres vivos se alimentan unos de otros para obtener </text>
+      <target>energia</target>
+      <text family="Rockwell Extra Bold" background="0xFFFFFF" size="35">.</text>
+     </p>
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" checkAccents="false" checkPunctuation="false" />
+  </activity>
+  <activity class="@text.Complete" name="cadena 2" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Rockwell Extra Bold" size="17" />
+      <color background="0xCCFFFF" />
+     </style>
+     <p>ESCRIBE LA PALABRA QUE FALTA EN LA DEFINICIÓN.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Rockwell Extra Bold" size="17" />
+      <color background="0xCCFFFF" />
+     </style>
+     <p>¡BIEN HECHO!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x0066FF">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x0099FF" border="true">
+     <size width="600" height="500" />
+    </window>
+   </settings>
+   <checkButton>Evaluación</checkButton>
+   <document>
+    <style name="targetError" base="target" foreground="0xFF0000" />
+    <style name="target" base="default" foreground="0x0000FF" target="true" />
+    <style name="default" family="Arial" background="0xFFFFFF" size="13" bold="false" italic="false" tabWidth="12" />
+    <section>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" Alignment="1">
+      <cell width="300" height="200" image="La planta fabrica su alimento y energía-resized.jpg" />
+      <text family="Arial" background="0xFFFFFF" size="13" bold="false" italic="false"> </text>
+     </p>
+     <p family="Arial" background="0xFFFFFF" Alignment="1" />
+     <p family="Arial" background="0xFFFFFF" Alignment="1" />
+     <p family="Arial" background="0xFFFFFF" Alignment="1">
+      <text family="Rockwell Extra Bold" background="0xFFFFFF" size="35" bold="false" italic="false" foreground="0x003366">Son los organismos que producen su propio </text>
+      <target>alimento</target>
+      <text family="Rockwell Extra Bold" background="0xFFFFFF" size="35" bold="false" italic="false" foreground="0x003366">, como las plantas.</text>
+     </p>
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" checkAccents="false" checkPunctuation="false" />
+  </activity>
+  <activity class="@text.Complete" name="cadena 3" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Rockwell Extra Bold" size="17" />
+      <color background="0xFFFFCC" />
+     </style>
+     <p>ESCRIBE LA PALABRA QUE FALTA</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Rockwell Extra Bold" size="17" />
+      <color background="0xFFFFCC" />
+     </style>
+     <p>¡BIEN HECHO!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xFFCCCC">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFCCCC" border="true">
+     <size width="600" height="503" />
+    </window>
+   </settings>
+   <checkButton>Evaluación</checkButton>
+   <document>
+    <style name="targetError" base="target" foreground="0xFF0000" />
+    <style name="target" base="default" foreground="0x0000FF" target="true" />
+    <style name="default" family="Tahoma" background="0xFFFFFF" size="13" bold="false" italic="false" tabWidth="12" />
+    <section>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" Alignment="1" />
+     <p family="Arial" background="0xFFFFFF" Alignment="1">
+      <cell width="250" height="250" image="Cadena alimentaria_ saltamontes a halcón-resized.jpg">
+       <style borderStroke="0.7" markerStroke="5.0">
+        <color background="0xFFFFFF" />
+       </style>
+      </cell>
+     </p>
+     <p family="Arial" background="0xFFFFFF" Alignment="1">
+      <text family="Rockwell Extra Bold" background="0xFFFFFF" size="35" foreground="0x003366">Son los seres vivos que obtienen energía al </text>
+      <target>alimentarse</target>
+      <text family="Rockwell Extra Bold" background="0xFFFFFF" size="35" foreground="0x003366"> de otros organismos.</text>
+     </p>
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" checkAccents="false" checkPunctuation="false" />
+  </activity>
+  <activity class="@text.Complete" name="cadena 4" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Rockwell Extra Bold" size="17" />
+      <color background="0xFFCCCC" />
+     </style>
+     <p>ESCRIBE LA PALABRA QUE FALTA</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Rockwell Extra Bold" size="17" />
+      <color background="0xFFCCCC" />
+     </style>
+     <p>¡BIEN HECHO1</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xFFFFCC">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFCC" border="true">
+     <size width="600" height="500" />
+    </window>
+   </settings>
+   <checkButton>Evaluación</checkButton>
+   <document>
+    <style name="targetError" base="target" foreground="0xFF0000" />
+    <style name="target" base="default" foreground="0x0000FF" target="true" />
+    <style name="default" family="Arial" background="0xFFFFFF" size="13" bold="false" italic="false" tabWidth="12" />
+    <section>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" Alignment="1">
+      <cell width="250" height="250" image="Descomposición_ hongos, microbios y nutrientes-resized.jpg">
+       <style borderStroke="0.7" markerStroke="5.0">
+        <color background="0xFFFFFF" />
+       </style>
+      </cell>
+     </p>
+     <p family="Arial" background="0xFFFFFF" Alignment="1">
+      <text family="Rockwell Extra Bold" background="0xFFFFFF" size="26" foreground="0x003366">Los descomponedores son organismos, como los hongos y las bacterias, que descomponen restos de seres </text>
+      <target>vivos</target>
+      <text family="Rockwell Extra Bold" background="0xFFFFFF" size="26" foreground="0x003366">.</text>
+     </p>
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" checkAccents="false" checkPunctuation="false" />
+  </activity>
+  <activity class="@text.Complete" name="cadena 5" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Rockwell Extra Bold" size="17" />
+      <color background="0xCCFFCC" />
+     </style>
+     <p>ESCRIBE LA PALABRA FALTANTE</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Rockwell Extra Bold" size="17" />
+      <color background="0xCCFFCC" />
+     </style>
+     <p>¡ BIEN HECHO 1</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xCCFFCC">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xCCFFCC" border="true">
+     <size width="600" height="500" />
+    </window>
+   </settings>
+   <checkButton>Evaluación</checkButton>
+   <document>
+    <style name="targetError" base="target" foreground="0xFF0000" />
+    <style name="target" base="default" foreground="0x0000FF" target="true" />
+    <style name="default" family="Arial" background="0xFFFFFF" size="13" bold="false" italic="false" tabWidth="12" />
+    <section>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" Alignment="1">
+      <cell width="250" height="250" image="Conejo herbívoro comiendo hojas-resized.jpg">
+       <style borderStroke="0.7" markerStroke="5.0">
+        <color background="0xFFFFFF" />
+       </style>
+      </cell>
+     </p>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" Alignment="1">
+      <text family="Rockwell Extra Bold" background="0xFFFFFF" size="26" foreground="0x003366">Los hervíboros son animales que se alimentan de </text>
+      <target>plantas</target>
+      <text family="Rockwell Extra Bold" background="0xFFFFFF" size="26" foreground="0x003366">.</text>
+     </p>
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" checkAccents="false" checkPunctuation="false" />
+  </activity>
+ </activities>
+ <mediaBag>
+  <media name="01_Desaparicion_de_depredadores.jpg" file="01_desaparicion_de_depredadores.jpg" />
+  <media name="02_Disminucion_de_herbivoros.jpg" file="02_disminucion_de_herbivoros.jpg" />
+  <media name="03_Contaminacion_del_agua.jpg" file="03_contaminacion_del_agua.jpg" />
+  <media name="04_Sequia.jpg" file="04_sequia.jpg" />
+  <media name="05_Aumenta_la_poblacion_de_presas.jpg" file="05_aumenta_la_poblacion_de_presas.jpg" />
+  <media name="06_Aumenta_la_cantidad_de_vegetacion.jpg" file="06_aumenta_la_cantidad_de_vegetacion.jpg" />
+  <media name="07_Los_animales_acuaticos_pueden_disminuir.jpg" file="07_los_animales_acuaticos_pueden_disminuir.jpg" />
+  <media name="08_Los_herbivoros_tienen_menos_alimento_y_disminuyen.jpg" file="08_los_herbivoros_tienen_menos_alimento_y_disminuyen.jpg" />
+  <media name="AFECTO.jpg" file="afecto.jpg" />
+  <media name="Cadena alimentaria del prado-resized.jpg" file="cadena_alimentaria_del_prado-resized.jpg" />
+  <media name="Cadena alimentaria del prado-resized1.jpg" file="cadena_alimentaria_del_prado-resized1.jpg" />
+  <media name="Cadena alimentaria_ flujo de energía-resized.jpg" file="cadena_alimentaria__flujo_de_energia-resized.jpg" />
+  <media name="Cadena alimentaria_ saltamontes a halcón-resized.jpg" file="cadena_alimentaria__saltamontes_a_halcon-resized.jpg" />
+  <media name="cambios fisicos-resized.jpg" file="cambios_fisicos-resized.jpg" />
+  <media name="comunicacion-resized.jpg" file="comunicacion-resized.jpg" />
+  <media name="Conejo herbívoro comiendo hojas-resized.jpg" file="conejo_herbivoro_comiendo_hojas-resized.jpg" />
+  <media name="Descomposición_ hongos, microbios y nutrientes-resized.jpg" file="descomposicion__hongos__microbios_y_nutrientes-resized.jpg" />
+  <media name="La planta fabrica su alimento y energía-resized.jpg" file="la_planta_fabrica_su_alimento_y_energia-resized.jpg" />
+  <media name="METODOS ANTI-resized.jpg" file="metodos_anti-resized.jpg" />
+  <media name="Mi cuerpo y la cadena de la vida-resized.jpg" file="mi_cuerpo_y_la_cadena_de_la_vida-resized.jpg" />
+  <media name="Tú eliges_ hábitos saludables hoy-resized.jpg" file="tu_eliges__habitos_saludables_hoy-resized.jpg" />
+ </mediaBag>
+</JClicProject>
+
